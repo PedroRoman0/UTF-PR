@@ -1,30 +1,32 @@
-body {
-    background-color: rgb(236, 236, 236);
+#titulo{
+    font-size: 50px;
 }
 
-#vendas {
-    color: dimgray;
+#imagem-chuva{
+    width: 30%;
+    height: 30%;
+    border: 5px solid;
 }
 
-#informacao{
-    color: dimgray;
+#imagem-alagamento{
+    width: 17%;
+    height: 17%;
+    border: 5px solid;
 }
 
-#botao{
-    background-color: rgb(192, 64, 64);
-    font-size: 14px;            
-    border-radius: 10px
+#subtitulo{
+    font-size: 18px;
+    color: grey;
+    font-style: inherit;
 }
 
-#possivel{
-    color: white;
+#sim{
+    font-size: 20px;
+    color: grey;
+    font-style: inherit;
 }
 
-.pse{
-    border-color: black;
-    border-width: 12px;
-    border-style: solid;
-    float: center;
+.divGeral{
+    display: flex;
+    justify-content: center;
 }
-
-
