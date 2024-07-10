@@ -3,15 +3,20 @@
 }
 
 #imagem-chuva{
-    width: 30%;
-    height: 30%;
-    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
 }
 
 #imagem-alagamento{
-    width: 17%;
-    height: 17%;
-    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+}
+
+.clima{
+    display: flex;
+    justify-content: center;
 }
 
 #subtitulo{
